@@ -1,0 +1,129 @@
+/* #274e9b blue */
+/* #F5B32F yellow */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+* {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+header {
+    margin: 0px 0px 50px 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #274e9b;
+    font-family: 'Poppins', sans-serif;
+}
+
+header img {
+    margin-left: 10px;
+    width: 40%;
+}
+
+nav {
+    margin-left: 600px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 5px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #5174b9;    
+    text-decoration: none;
+}
+
+nav ul li > .sub-menu {
+    display: none;
+    position: absolute;
+    
+}
+
+nav ul li > .sub-menu > li > a {
+    font-weight: 400;
+}
+
+nav ul li:hover > .sub-menu {
+    display: block;
+    background-color: #274e9b;
+    margin-top: 20px;
+    border-top: 2px solid #F5B32F;
+    width: 200px;
+
+}
+
+#open, #courses {
+    background-color: #F5B32F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1080px;
+}
+
+#main-content h1 {
+    color: #274e9b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 70%;
+
+}
+
+form h2 {
+    width: 50%;
+    font-size: 1rem;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 50%;
+    height: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #274E9B;
+    position: relative;
+}
+
+footer {
+    background-color: #274e9b;
+    width: 100%;
+}
+
